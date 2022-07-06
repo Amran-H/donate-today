@@ -57,6 +57,7 @@ h2 {
     display: flex;
     justify-content: center;
     padding: 60px;
+    margin-left: 25px;
 
 }
 
@@ -78,6 +79,17 @@ h2 {
 
 #color {
     color: rgb(147, 143, 143);
+}
+
+#donate-input {
+
+    font-size: 18px;
+    border: none;
+    padding: 0px 255px 10px 240px;
+    border-bottom: 2px solid rgb(204, 202, 202);
+    margin-bottom: 40px;
+    margin-left: -40px;
+    text-align: center;
 }
 
 h3 {
@@ -113,6 +125,47 @@ h3 {
     margin: 10px;
 }
 
+#lives {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.half-width {
+    width: 50%;
+    padding: 5%;
+
+}
+
+.half-width img {
+    width: 100%;
+    height: 450px;
+    border-radius: 5px;
+
+}
+
+.project-text {
+    text-align: center;
+}
+
+.project-width {
+    margin: 20px;
+    margin-bottom: -80px;
+    text-align: center;
+}
+
+.project-width img {
+    width: 100%;
+    height: 450px;
+    border-radius: 5px;
+}
+
+#project-button {
+    text-align: center;
+    padding-top: 8%;
+}
+
+
 .email {
     display: flex;
     justify-content: center;
@@ -124,7 +177,7 @@ h3 {
     margin-left: 20%;
 }
 
-input {
+#input-email {
     height: 40px;
     width: 320px;
     border: none;

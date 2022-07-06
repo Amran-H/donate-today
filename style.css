@@ -1,0 +1,165 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+
+}
+
+h1 {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.color {
+    color: rgb(61, 61, 61);
+}
+
+.header {
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+
+
+}
+
+.header-text {
+    color: white;
+    text-align: center;
+    position: absolute;
+    margin: 10% 20%;
+}
+
+.donate-button {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 15px 40px;
+    border-radius: 5px;
+    background-color: tomato;
+}
+
+.text {
+    text-align: center;
+    margin: 10% 30%;
+}
+
+.ammount-container {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+
+}
+
+.ammount-text {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px;
+    padding: 40px 20px;
+    background: rgb(250, 247, 247);
+    border-radius: 5px;
+}
+
+#picked-option {
+    color: red;
+    border: 3px solid red;
+    background-color: rgb(253, 227, 227);
+}
+
+#color {
+    color: rgb(147, 143, 143);
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -6%;
+}
+
+#food {
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    padding: 40px 60px 40px 15px;
+    margin: 10px;
+}
+
+#shelter {
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    padding: 40px 60px 40px 15px;
+    margin: 10px;
+}
+
+#education {
+    background: rgb(244, 215, 246);
+    border-radius: 5px;
+    padding: 40px 60px 40px 15px;
+    margin: 10px;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    margin-top: -100px;
+    background: #FFF4D6;
+    width: 50%;
+    text-align: center;
+    margin-left: 20%;
+}
+
+input {
+    height: 40px;
+    width: 320px;
+    border: none;
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 10px;
+}
+
+button {
+    width: 150px;
+    color: #FFFFFF;
+    background-color: tomato;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+
+}
+
+h4 {
+    font-size: 36px;
+    font-family: 'Lobster';
+    color: #FF5959;
+}
+
+h5 {
+    color: #D9DBE1;
+    margin-top: -20px;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    position: absolute;
+    margin: 10% 0;
+    background: #0B0D17;
+    width: 100%;
+    padding: 16px 0px;
+    border-radius: 5px;
+}
